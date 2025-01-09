@@ -1,5 +1,5 @@
 @echo off
-title name Bot
+title SUNKONG Bot by @MeoMunDep
 color 0A
 
 cd ..
@@ -14,7 +14,7 @@ if exist node_modules (
 :MENU
 cls
 echo =================================================================
-echo    SUNKONG BOT SETUP AND RUN SCRIPT
+echo    SUNKONG BOT SETUP AND RUN SCRIPT by @MeoMunDep
 echo =================================================================
 echo.
 echo Current directory: %CD%
@@ -90,7 +90,7 @@ if exist "..\node_modules" (
 ) else (
     echo Using node_modules from current directory
 )
-node bot
+node MeoMunDep
 pause
 goto MENU
 
